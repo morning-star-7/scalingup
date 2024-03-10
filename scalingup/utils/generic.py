@@ -105,7 +105,7 @@ def add_text_to_image(
     draw = ImageDraw.Draw(pil_image)
     try:
         # font = ImageFont.truetype("C:/Windows/Fonts/arial.ttf", fontsize)
-        font = ImageFont.truetype("/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf", fontsize)
+        font = ImageFont.truetype("/home/chc/projects/scalingup/fonts/truetype/liberation/LiberationMono-Bold.ttf", fontsize)
     except OSError:
         font = ImageFont.truetype(
             "/usr/share/fonts/truetype/lato/Lato-Light.ttf", fontsize
