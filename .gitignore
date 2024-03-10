@@ -128,3 +128,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# generated videos
+*.mp4
+
+# LLM cache responses
+*.zip
+/scalingup/responses/
+
+# outputs
+/outputs
